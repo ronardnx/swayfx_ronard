@@ -1,0 +1,70 @@
+* {
+  font-weight: normal; 
+  font-size: 12px;
+  min-height: 0;
+}
+#custom-arch {
+  background-image: url('/home/dragos/Downloads/Faenza-start-here-archlinux-symbolic.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-width: 0px;
+  
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 10px;
+  color: #b4befe;
+}
+window#waybar {
+  background: transparent;
+  border-radius: 10px;
+}
+
+#window {
+  font-family: "Ubuntu";
+
+}
+#workspaces button {
+    color: gray;
+    padding: 5px;
+    min-width: 10px;
+    margin-left: 2px;
+}
+#workspaces button.active {
+    color: white;
+}
+
+#workspaces button.focused {
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+#tray,
+#custom-japan,
+#custom-germany,
+#temperature,
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+  font-size: 13px;
+  padding: 0 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#temperature.critical {
+  color: #b62d66;
+}
+
+#battery icon {
+  color: #b62d66;
+}
+
+#network.disconnected {
+  color: #b62d66;
+}
